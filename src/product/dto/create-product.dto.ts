@@ -15,4 +15,7 @@ export class CreateProductDto {
 
     @IsNotEmpty()
     rating: number;
+
+    @IsNotEmpty()
+    isActive: boolean;
 }
